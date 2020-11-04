@@ -44,8 +44,57 @@ Passwords dataset is converted into a text by concatenating them and using a spa
 ## Metrics:
 The primary metrics for model training is the loss value and accuracy. However, to properly test the output of the model, we used a hit rate. The hit rate is the probability of generating a password that exists in the test set (number of generated passwords that exist in the test set/ total generated passwords).
 
-
 ## Results:
+### 512 hidden layers:
+
+#### Batch: 32
+| [![](results/512_layers/data4999893_batch32_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch32_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch32_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 128
+| [![](results/512_layers/data4999893_batch128_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch128_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch128_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 256
+| [![](results/512_layers/data4999893_batch256_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch256_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch256_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 512
+| [![](results/512_layers/data4999893_batch512_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch512_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch512_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+
+### 1024 hidden layers:
+
+#### Batch: 32
+| [![](results/1024_layers/data4999893_batch32_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch32_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch32_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 128
+| [![](results/1024_layers/data4999893_batch128_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch128_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch128_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 256
+| [![](results/1024_layers/data4999893_batch256_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch256_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch256_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+#### Batch: 512
+| [![](results/1024_layers/data4999893_batch512_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch512_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch512_epochs20_model_hit_rate-1.png)]() |
+|:---:|:---:|:---:|
+
+
+
+
+
+
 
 
 ## Analysis:
+Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, epoch of 4).
