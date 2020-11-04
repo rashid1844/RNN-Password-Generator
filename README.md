@@ -21,7 +21,7 @@ Utilizing the fact that LSTM can learn sequences, a text predictor is a major ap
 
 ![](imgs/lstm.png)
 
-Text prediction defined by:
+### Text prediction defined by:
 1. The main attribute for LSTM is the size of the hidden layers.
 2. The LSTM takes a fixed size input of letters (sentence of size seq_length).
 3. The output is the letter after the sentence.
@@ -98,4 +98,14 @@ Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of
 
 
 ## Analysis:
-Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, epoch of 4).
+Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, and an epoch of 4).
+
+
+## Acknowledgment:
+
+* [Ajhalthor](https://github.com/ajhalthor/Keras_LSTM_Text_Generator) provided a starting point for the text predictor. 
+
+* Passwords dataset was available thanks to [berzerk0](https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length).
+
+*  The following [paper](https://www.mdpi.com/1424-8220/20/11/3106/pdf) proivdes a 
+Generative Adversarial Network (GAN) based password generator.
