@@ -45,7 +45,7 @@ Passwords dataset is converted into a text by concatenating them and using a spa
 The primary metrics for model training is the loss value and accuracy. However, to properly test the output of the model, we used a hit rate. The hit rate is the probability of generating a password that exists in the test set (number of generated passwords that exist in the test set/ total generated passwords).
 
 ## Results:
-Using portion (5 million) of the WPA 24 million dataset, we did the following tests.
+Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of the WPA 24 million dataset, we did the following tests.
 ### 512 hidden layers:
 
 #### Batch: 32
