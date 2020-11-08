@@ -98,7 +98,7 @@ Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of
 
 
 ## Analysis:
-Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, and an epoch of 4).
+Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, and an epoch of 4) which achieved a hit rate of 16%.
 
 
 ## Acknowledgment:
