@@ -48,22 +48,22 @@ The primary metrics for model training is the loss value and accuracy. However, 
 Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of the WPA 24 million dataset, we did the following tests.
 ### 512 hidden layers:
 
-#### Batch: 32
+#### Batch: 32:
 | [![](results/512_layers/data4999893_batch32_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch32_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch32_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 128
+#### Batch: 128:
 | [![](results/512_layers/data4999893_batch128_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch128_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch128_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 256
+#### Batch: 256:
 | [![](results/512_layers/data4999893_batch256_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch256_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch256_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 512
+#### Batch: 512:
 | [![](results/512_layers/data4999893_batch512_epochs20_model_loss-1.png)]() | [![](results/512_layers/data4999893_batch512_epochs20_model_accuracy-1.png)]() | [![](results/512_layers/data4999893_batch512_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
@@ -71,22 +71,22 @@ Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of
 
 ### 1024 hidden layers:
 
-#### Batch: 32
+#### Batch: 32:
 | [![](results/1024_layers/data4999893_batch32_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch32_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch32_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 128
+#### Batch: 128:
 | [![](results/1024_layers/data4999893_batch128_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch128_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch128_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 256
+#### Batch: 256:
 | [![](results/1024_layers/data4999893_batch256_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch256_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch256_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
 
-#### Batch: 512
+#### Batch: 512:
 | [![](results/1024_layers/data4999893_batch512_epochs20_model_loss-1.png)]() | [![](results/1024_layers/data4999893_batch512_epochs20_model_accuracy-1.png)]() | [![](results/1024_layers/data4999893_batch512_epochs20_model_hit_rate-1.png)]() |
 |:---:|:---:|:---:|
 
