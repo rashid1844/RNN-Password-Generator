@@ -109,3 +109,4 @@ Viewing the results graph, we can notice multiple possible paprmeter combination
 
 *  The following [paper](https://www.mdpi.com/1424-8220/20/11/3106/pdf) proivdes a 
 Generative Adversarial Network (GAN) based password generator.
+* This project is part of the COSC-601 course taught by Dr.Zeyar Aung.
