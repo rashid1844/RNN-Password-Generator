@@ -101,6 +101,12 @@ Using portion (5 million divided into train: 200k, validate 50k, test: 4.75M) of
 Viewing the results graph, we can notice multiple possible paprmeter combinations. But considering the training time as well, we chose the (512 hidden layers, batch of 512, and an epoch of 4) which achieved a hit rate of 16%.
 
 
+## Output Sample:
+Below is a list of predictions that matched the test set:
+
+ {'landers1', 'sterrick', 'salina123', 'marister', 'berenter', 'schetter', 'restings', 'stranger', 'supersti', 'stampers', 'pillings', 'contrade', 'tollings', 'stillings', 'colacion', 'starting', 'langeras', 'paratiste', 'martings', 'transera', 'partings', 'contrant', 'entranger', 'startings', 'justing3', 'collager', '07051966', 'portanta', 'silversi', 'partering', 'sandrang', 'portiera', '19920406', 'berlinger', 'trangeres', 'langeres', 'alterais', 'portanti', 'rodan123', 'sinerait', 'santaran', 'allentan', 'allister', 'strangle', 'paralian', 'langer123'}
+
+
 ## Acknowledgment:
 
 * [Ajhalthor](https://github.com/ajhalthor/Keras_LSTM_Text_Generator) provided a starting point for the text predictor. 
